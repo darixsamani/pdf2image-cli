@@ -33,9 +33,10 @@ cargo install pdf2image-cli
 
 ## 🛠️ Usage
 
+You can specify the password using the `--password` argument.
+
 ### ▶️ Run from source
 
-You can specify the password using the `--password` argument.
 
 After cloning this repository:
 

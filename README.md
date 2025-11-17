@@ -21,6 +21,8 @@ A fast and lightweight **command-line tool** to convert PDF pages into high-qual
 
 - ⚡ Built with Rust for maximum performance
 
+---
+
 ## 📦 Installation
 
 Install using Cargo:

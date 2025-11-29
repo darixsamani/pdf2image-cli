@@ -52,3 +52,25 @@ cargo run -- --input Fuzzy.pdf --output-dir images --dpi 150 --format png
 pdf2images --input Fuzzy.pdf --output-dir images --dpi 150 --format png
 ```
 ---
+
+### 📥 Installing `libpdfium.so`
+
+To use pdfium-render, you need the `libpdfium.so` binary for your system.
+
+1. Clone the official pdfium-binaries repository:
+
+```bash
+git clone https://github.com/bblanchon/pdfium-binaries
+cd pdfium-binaries
+```
+
+2. Build the library according to your OS and architecture.
+For example, on **Linux x64**: 
+
+```bash
+./build.sh linux x64
+```
+
+3. After the build completes, the compiled `libpdfium.so` will be available inside the build output directory.
+
+Copy it into your project’s expected library path (e.g., `./pdfium/` or `/usr/lib/`).

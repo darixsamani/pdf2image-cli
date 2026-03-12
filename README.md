@@ -55,6 +55,8 @@ pdf2images --input Fuzzy.pdf --output-dir images --dpi 150 --format png
 
 ### 📥 Installing `libpdfium.so`
 
+Important to note that we don't need a shared binary file in the case that we have **clang** installed
+
 To use pdfium-render, you need the `libpdfium.so` binary for your system.
 
 1. Clone the official pdfium-binaries repository:
@@ -65,6 +67,7 @@ cd pdfium-binaries
 ```
 
 2. Build the library according to your OS and architecture.
+
 For example, on **Linux x64**: 
 
 ```bash

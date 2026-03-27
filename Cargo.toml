@@ -11,7 +11,7 @@ repository = "https://github.com/darixsamani/pdf2image-cli"
 
 categories = ["command-line-interface", "command-line-utilities"]
 
-include = [libpdfium.so"]
+include = ["libpdfium.so"]
 
 
 [[bin]]

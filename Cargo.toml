@@ -12,7 +12,7 @@ repository = "https://github.com/darixsamani/pdf2image-cli"
 categories = ["command-line-interface", "command-line-utilities"]
 
 exlude = ["images", ".*"]
-include = ["/src", "libpdfium.so"]
+include = [libpdfium.so"]
 
 
 [[bin]]

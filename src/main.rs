@@ -11,7 +11,7 @@ use std::path::PathBuf;
 #[command(about = "Convert PDF to images using pdfium-render", long_about = None)]
 struct Args {
 
-    /// Input pdf file PathBuf\
+    /// Input pdf file PathBuf
     #[arg(short, long)]
     input: PathBuf,
 
